@@ -48,7 +48,8 @@
 
     var pubnub = PUBNUB.init({
         publish_key : 'blocks',
-        subscribe_key: 'blocks'
+        subscribe_key: 'blocks',
+        ssl : true
     });
     var session = get_session();
 
